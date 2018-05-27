@@ -35,3 +35,11 @@ https://qiita.com/sion_cojp/items/c02b5b5586b48eaaa469
 |net.core.netdev_max_backlog|パケット受信時にキューに繋ぐことができるパケットの最大数|1000|
 |net.ipv4.tcp_tw_reuse|自分からの接続を使い回す。tcp_tw_recycleは相手からの接続を使い回す。|0|
 |net.ipv4.tcp_fin_timeout|タイムアウトはできる限り短いほうがいい|60|
+
+
+
+## 試す
+
+設定前 ：321.9
+
+設定後 ：323.4
